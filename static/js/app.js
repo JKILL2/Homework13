@@ -13,7 +13,7 @@ var columns = ["datetime",
                 "durationMinutes", 
                 "comments"];
 
-// load data
+// define variables and load data
 var tbody = d3.select("tbody");
 var load_data = (data_input) => {
     tbody.html("");
